@@ -85,8 +85,8 @@ def main():
         _all
         .selectExpr("message_from as user_from",
                     "message_to as user_to",
-                    "lat as lat_from",
-                    "lon as lon_from",
+                    "lat as lat_double_fin",
+                    "lon as lng_double_fin",
                     "date")
         .distinct()
     )
